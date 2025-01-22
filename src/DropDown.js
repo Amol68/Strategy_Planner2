@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { dateArray } from './data';
 import './DropDown.css';
+import up from "./up.png";
+import down from "./down.png";
 
 
 const Dropdown = ({ selectedDate, onDateChange }) => {
@@ -46,8 +48,14 @@ const Dropdown = ({ selectedDate, onDateChange }) => {
         onClick={toggleDropdown}
         className="dropDownButton"
       >
+
        {selectedDate}
-       
+
+       <img
+          src={isOpen ? up : down}
+          alt="Arrow Icon"
+          className="arrow-icon"
+        />
       
       </button>
       

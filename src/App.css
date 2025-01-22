@@ -1,104 +1,156 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
-.errorContainer{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  margin-top:150px;
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
 }
-
 
 /* suggested stratigies */
-.strateyContainer{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:10px;
-  border:2px solid rgb(240, 236, 236);
-  
+.strateyContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid rgb(240, 236, 236);
+
   border-radius: 20px;
   width: 33%;
   margin: 20px auto;
-   
 }
 
-.right{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:4px;
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
 
-.left{
-  display:flex;
-  justify-content:center;
-  align-items:center;
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-  .circle {
-    width: 8px; 
-    height: 8px;
-    background-color: #888; 
-    border-radius: 50%; 
-    display: inline-block; 
-    margin-right: 4px; 
-    margin-top:6px;
-  
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: #888;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 1px;
 }
 
-.errorText{
+.errorText {
   font-size: 18px;
   font-weight: 700;
   color: gray;
 }
 
-.errorDate{
+.errorDate {
   font-size: 20px;
   font-weight: 700;
   color: black;
 }
 
-.strategyName{
-  
+.strategyName {
   font-weight: 600;
   color: black;
 }
 
-.strategyCount{
+.strategyCount {
   font-weight: 600;
   color: gray;
 }
 
-.strategies{
+.strategies {
   font-weight: 600;
   color: gray;
 }
 
-@media (max-width:768px){
-   .strateyContainer{
-     display:flex;
-     flex-direction:column;
-     flex-wrap: wrap;
-     justify-content:center;
-     gap:12px;
+@media (max-width: 768px) {
+  .strateyContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
   }
 }
 
-@media (max-width:480px){
-
-  .strateyContainer{
-     display:flex;
-     flex-direction:column;
-     flex-wrap: wrap;
-     justify-content:center;
-     gap:12px;
+@media (max-width: 480px) {
+  .strateyContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
   }
 
+  .strategyName {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+
+  .strategies {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+  }
+
+
+  circle {
+    width: 4px;
+    height: 4px;
+}
+}
+
+@media (max-width: 768px) {
+  .strategyName {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .strategies {
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+  }
+
+  circle {
+    width: 6px;
+    height: 6px;
+}
+}
+
+
+
+@media (max-width: 318px) {
+  .strategyName {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+
+  .strategies {
+    font-weight: 600;
+    font-size: 10px;
+    
+  }
+
+  .strategyCount {
+    font-weight: 600;
+    font-size: 10px;
+    color: gray;
+  }
+
+  circle {
+    width: 4px;
+    height: 4px;
+}
 }
