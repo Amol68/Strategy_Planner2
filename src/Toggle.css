@@ -1,0 +1,48 @@
+.toggle-container {
+    display: flex;
+    background:rgb(240, 236, 236);
+    padding:10px;
+    border-radius: 20px;
+    width: fit-content;
+    max-width:100%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    flex: 1;
+    padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #666;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+
+ .active{
+    background-color: #005eff;
+    color: #fff;
+ }
+
+  @media (max-width:768px){
+    .button{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+  @media (max-width:480px){
+
+    .toggle-container{
+        flex-direction:column;
+        gap:5px;
+    }
+
+    .button{
+        font-size:12px;
+        padding:6px 10px;
+    }
+
+  }

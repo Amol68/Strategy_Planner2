@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.errorContainer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:150px;
+}
+
+
+/* suggested stratigies */
+.strateyContainer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+  border:2px solid rgb(240, 236, 236);
+  
+  border-radius: 20px;
+  width: 33%;
+  margin: 20px auto;
+   
+}
+
+.right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:4px;
+}
+
+.left{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+
+  .circle {
+    width: 8px; 
+    height: 8px;
+    background-color: #888; 
+    border-radius: 50%; 
+    display: inline-block; 
+    margin-right: 4px; 
+    margin-top:6px;
+  
+}
+
+.errorText{
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+
+.errorDate{
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.strategyName{
+  
+  font-weight: 600;
+  color: black;
+}
+
+.strategyCount{
+  font-weight: 600;
+  color: gray;
+}
+
+.strategies{
+  font-weight: 600;
+  color: gray;
+}
+
+@media (max-width:768px){
+   .strateyContainer{
+     display:flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     justify-content:center;
+     gap:12px;
+  }
+}
+
+@media (max-width:480px){
+
+  .strateyContainer{
+     display:flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     justify-content:center;
+     gap:12px;
+  }
+
+}
