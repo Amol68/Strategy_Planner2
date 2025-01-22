@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Strategy_Planner2/static/css/main.07773d6c.css",
+    "main.js": "/Strategy_Planner2/static/js/main.4ec4d943.js",
+    "index.html": "/Strategy_Planner2/index.html",
+    "main.07773d6c.css.map": "/Strategy_Planner2/static/css/main.07773d6c.css.map",
+    "main.4ec4d943.js.map": "/Strategy_Planner2/static/js/main.4ec4d943.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07773d6c.css",
+    "static/js/main.4ec4d943.js"
+  ]
+}
